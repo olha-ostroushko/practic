@@ -1,0 +1,76 @@
+body {
+  font-family: "Montserrat", sand-serif;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ingr {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.ingr-title {
+  width: 412px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin: 0 auto 50px;
+}
+.ingr-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.ingr-item {
+  width: calc((100% - 32px * 3) / 4);
+  padding: 28px 23px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+.ingr-sup-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+}
+.ingr-item img {
+  margin-bottom: 36px;
+}
+.ingr-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+  color: #ffffff;
+}
+.ingr-item:nth-child(2n + 2) {
+  background-color: #ffffff;
+  color: #111;
+  border: 1px solid #fd9222;
+}
+.ingr-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+  color: #ffffff;
+}
