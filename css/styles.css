@@ -7,6 +7,9 @@ ol {
   padding: 0;
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -16,9 +19,7 @@ h6,
 p {
   margin: 0;
 }
-a {
-  text-decoration: none;
-}
+
 .container {
   width: 1168px;
   padding-left: 16px;
